@@ -1,0 +1,33 @@
+{
+  "name": "twitter-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0lilauro/nodeTwitterAPI.git"
+  },
+  "keywords": [
+    "api",
+    "restful",
+    "json",
+    "twitter",
+    "node",
+    "javascript",
+    "test"
+  ],
+  "author": "Lauro Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0lilauro/nodeTwitterAPI/issues"
+  },
+  "homepage": "https://github.com/0lilauro/nodeTwitterAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mariadb": "^2.0.3"
+  }
+}
