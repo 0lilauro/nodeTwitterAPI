@@ -36,11 +36,8 @@ var port =  process.env.PORT || 8080;
 app.get('',(req, res) => res.send('Hello World With Express'));
 
 // Launch App to listen to especified port
-
-
-
-
-
+let coon = await pool.getConnection(); 
+console.log(coon.status);
 
 
 app.listen(port, function() {
